@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background:#2d3142;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    flex-direction:column;
+    font-family: 'Grandstander', cursive;
+}
+
+p{
+    max-width:500px;
+    margin:1.5rem auto;
+    color:#ffffff;
+    text-align: center;
+}
+
+.btn{
+    padding:0.7rem 1rem;
+    border:none;
+    background:#4f5d75;
+    color:#ffffff;
+    font-size:14px;
+    font-weight: 700;
+    border-radius:4px;
+}
+
+.hide{
+    display: none;
+    overflow: hidden;
+}
+
+.show{
+    display:block;
+
+}
